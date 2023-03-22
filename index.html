@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header-container">
+      <h2 class="header">Feedback Form</h2>
+    </div>
+
+    <div class="progress-bar">
+      <div class="step">
+        <p>
+          <!-- Service -->
+        </p>
+        <div class="bullet">
+          <span>1</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>
+          <!-- Staff -->
+        </p>
+        <div class="bullet">
+          <span>2</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>
+          <!-- Food -->
+        </p>
+        <div class="bullet">
+          <span>3</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>
+          <!-- Submit -->
+        </p>
+        <div class="bullet">
+          <span>4</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+    </div>
+    <div class="translateContainer">
+      <div class="feedbackContainer">
+        <p class="feedback">
+          Dear John, please provide your valuable feedback.
+        </p>
+      </div>
+      <div id="google_translate_element"></div>
+    </div>
+
+    <div class="container">
+      <div class="form-outer">
+        <form action="#">
+          <div class="page slide-page green">
+            <div class="title">
+              <p class="question">How do you rate the service at your hotel?</p>
+            </div>
+
+            <div class="container2">
+              <div class="item">
+                <label for="0">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback"
+                    id="0"
+                    value="0"
+                  />
+                  <!-- <span class="firstNext">&#128560;</span> -->
+                  <img src="/Very Poor.gif"  class="firstNext" />
+
+                  <p class="review">Very Poor</p>
+                </label>
+              </div>
+
+              <div class="item">
+                <label for="1">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback"
+                    id="1"
+                    value="1"
+                  />
+                  <!-- <span class="firstNext">🙁</span> -->
+                  <img src="/Poor.gif" class="firstNext"/>
+                  <p class="review">Poor</p>
+                </label>
+              </div>
+
+              <div class="item">
+                <label for="2">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback"
+                    id="2"
+                    value="2"
+                  />
+                  <!-- <span class="firstNext">&#128529;</span> -->
+                  <img src="/Fair.gif" class="firstNext"/>
+                  <p class="review">Fair</p>
+                </label>
+              </div>
+
+              <div class="item">
+                <label for="3">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback"
+                    id="3"
+                    value="3"
+                  />
+                  <!-- <span class="firstNext">😁</span> -->
+                  <img src="/Good.gif" class="firstNext"/>
+                  <p class="review">Good</p>
+                </label>
+              </div>
+
+              <div class="item">
+                <label for="4">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback"
+                    id="4"
+                    value="4"
+                  />
+                  <!-- <span class="firstNext">😍</span> -->
+                  <img src="/Excellent.gif" class="firstNext"/>
+                  <p class="review">Excellent</p>
+                </label>
+              </div>
+            </div>
+            <!-- <button class="firstNext next">  </button> -->
+            <div class="field">
+              <!-- <button class="firstNext next">Next</button> -->
+            </div>
+          </div>
+          <div class="page green">
+            <div class="title">
+              <p class="question">How do you rate the staff at your hotel?</p>
+            </div>
+            <div class="container3">
+              <div class="item1">
+                <label for="5">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback1"
+                    id="5"
+                    value="5"
+                  />
+                  <!-- <span class="next-1">&#128560;</span> -->
+                  <img src="/Very Poor.gif"  class="next-1"/>
+                  <p class="review">Very Poor</p>
+                </label>
+              </div>
+
+              <div class="item1">
+                <label for="6">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback1"
+                    id="6"
+                    value="6"
+                  />
+                  <!-- <span class="next-1">🙁</span> -->
+                  <img src="/Poor.gif" class="next-1"/>
+                  <p class="review">Poor</p>
+                </label>
+              </div>
+
+              <div class="item1">
+                <label for="7">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback1"
+                    id="7"
+                    value="7"
+                  />
+                  <!-- <span class="next-1">&#128529;</span> -->
+                  <img src="/Fair.gif" class="next-1"/>
+                  <p class="review">Fair</p>
+                </label>
+              </div>
+
+              <div class="item1">
+                <label for="8">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback1"
+                    id="8"
+                    value="8"
+                  />
+                  <!-- <span class="next-1">😁</span> -->
+                  <img src="/Good.gif" class="next-1"/>
+                  <p class="review">Good</p>
+                </label>
+              </div>
+
+              <div class="item1">
+                <label for="9">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback1"
+                    id="9"
+                    value="9"
+                  />
+                  <!-- <span class="next-1">😍</span> -->
+                  <img src="/Excellent.gif" class="next-1"/>
+                  <p class="review">Excellent</p>
+                </label>
+              </div>
+            </div>
+            <div class="field btns">
+              <button class="prev-1 prev">Previous</button>
+              <!-- <button class="next-1 next">Next</button> -->
+            </div>
+          </div>
+          <div class="page green">
+            <div class="title">
+              <p class="question">How do you rate the food at your hotel?</p>
+            </div>
+            <div class="container4">
+              <div class="item2">
+                <label for="10">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback2"
+                    id="10"
+                    value="10"
+                  />
+                  <!-- <span class="next-2">&#128560;</span> -->
+                  <img src="/Very Poor.gif" class="next-2"/>
+                  <p class="review">Very Poor</p>
+                </label>
+              </div>
+
+              <div class="item2">
+                <label for="11">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback2"
+                    id="11"
+                    value="11"
+                  />
+                  <!-- <span class="next-2">🙁</span> -->
+                  <img src="/Poor.gif" class="next-2"/>
+                  <p class="review">Poor</p>
+                </label>
+              </div>
+
+              <div class="item2">
+                <label for="12">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback2"
+                    id="12"
+                    value="12"
+                  />
+                  <!-- <span class="next-2">&#128529;</span> -->
+                  <img src="/Fair.gif" class="next-2"/>
+                  <p class="review">Fair</p>
+                </label>
+              </div>
+
+              <div class="item2">
+                <label for="13">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback2"
+                    id="13"
+                    value="13"
+                  />
+                  <!-- <span class="next-2">😁</span> -->
+                  <img src = "/Good.gif" class="next-2"/>
+                  <p class="review">Good</p>
+                </label>
+              </div>
+
+              <div class="item2">
+                <label for="14">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="feedback2"
+                    id="14"
+                    value="14"
+                  />
+                  <!-- <span class="next-2">😍</span> -->
+                  <img src="/Excellent.gif" class="next-2"/>
+                  <p class="review">Excellent</p>
+                </label>
+              </div>
+            </div>
+            <div class="field btns">
+              <button class="prev-2 prev">Previous</button>
+              <!-- <button class="next-2 next">Next</button> -->
+            </div>
+          </div>
+
+          <div class="page lightGreen">
+            <div class="title">
+              <p class="commentHead">
+                Are there any other comment you would like to share with us.
+              </p>
+            </div>
+            <div>
+              <textarea rows="8" cols="130"></textarea>
+            </div>
+            <div class="field btns">
+              <button class="prev-3 last-prev">Previous</button>
+              <button class="submit" href="#" onclick="show('popup')">
+                Submit
+              </button>
+              <div class="popup" id="popup">
+                <p class="thankyou">Thank you for your valuable feedback</p>
+
+                <p>Your feedback was submitted successfully</p>
+                <img
+                  src="./submitted.gif"
+                  style="width: 100px; height: 100px; top: -4%; left: 7%"
+                />
+                <button class="Close">
+                  <a href="/" onclick="hide('popup')">Close</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>
